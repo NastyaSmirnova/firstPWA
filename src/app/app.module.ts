@@ -22,7 +22,7 @@ import { ImgcardComponent } from './imgcard/imgcard.component';
     BrowserModule,
     MatToolbarModule,
     MatCardModule,
-    environment.production ? ServiceWorkerModule.register('/ngsw-worker.js') : []
+    environment.production ? ServiceWorkerModule.register('ngsw-worker.js') : []
   ],
   providers: [],
   bootstrap: [AppComponent]
